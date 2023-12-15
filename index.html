@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle A Fence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <a href="#"><img class="logo" src="img/Circle+A+Fence+Logo-1920w.webp" alt="omnifood logo"></a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#where">Where to find us?</a></li>
+                <li><a class="main-nav-link" href="#">What do we sell?</a></li>
+                <li><a class="main-nav-link" href="#">Prices</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">
+                    Circle A Fences
+                </span>
+            </div>
+        </div>
+        <section class="section section-light">
+            <h2 id="where">Where to find us?</h2>
+            <section class="p-5">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md">
+                            <h2 class="text-center mb-4">Contact Info</h2>
+                            <ul class="list-group list-group-flush lead">
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Main Location:</span>1589 Canton Rd NE
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Enrollment Phone</span>(770) 424-7862
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Enrollment Email:</span>enroll@frontendbc.test
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Student Email:</span>student@frontendbc.test
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md">
+                            <div id="map">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <p></p>
+        </section>
+        <div class="pimg2">
+            <section class="showcase">
+                <div class="video-container">
+                    <video src="img/go_compose_video_1638141396604.mp4" autoplay muted loop></video>
+                </div>
+            </section>
+            <div class="ptext">
+               
+                <span>
+                    
+                    
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>What do we sell?</h2>
+            <p>Here at Circle A Fences we sell a variety of different fences. We also sell handrail. We well wood, composite, vinyl, chainlink, aluminum, and steel fecnes and handrails.</p>
+        </section>
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border trans">
+                    Image Three Text
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet explicabo quo recusandae? Dolorem distinctio labore quam soluta sapiente ex eligendi? Odio, sunt. Aliquid eveniet ut deserunt aperiam sequi odit placeat quo corporis perferendis, nulla magni. Voluptatum, blanditiis deserunt? Error voluptatum quod exercitationem, iste beatae fugit facilis quam. Iure quibusdam facilis qui asperiores incidunt hic consequatur similique accusantium voluptatibus reiciendis dolore magni soluta adipisci, repudiandae nihil architecto vero voluptas quis minus.</p>
+        </section>
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">
+                    <a href="#">Contact me!</a>
+                </span>
+            </div>
+        </div>
+    </body>
+    </html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js">
+</script>
+<script>
+  mapboxgl.accessToken =
+    'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [-84.531317, 33.989302],
+    zoom: 18,
+  })
+</script>
+</html>
